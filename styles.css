@@ -1,0 +1,91 @@
+#calc-body {
+	width: 17em;
+	height: 21em;
+	background: linear-gradient(to right, rgb(150, 150, 150), rgb(200, 200, 200), rgb(150, 150, 150));
+	border-radius: 12px;
+	border-style: outset;
+	border-width: 1px;
+	box-shadow: 3px 3px 3px #888888;
+}
+
+#screen {
+	width: 15em;
+	height: 2.5em;
+	background: linear-gradient(rgb(202, 223, 166), rgb(242, 263, 206), rgb(202, 223, 166));
+	margin: .5em 1em .1em 1em;
+	border-radius: 12px;
+	border-style: inset;
+	border-color: grey;
+	border-width: 2px;
+}
+
+#screentext {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: lighter;
+	color: rgb(90, 90, 90);
+	font-size: 2em;
+	font-weight: lighter;
+	text-align: right;
+	margin-right: .3em;
+}
+
+#edgemargin {
+	margin-left: 1em;
+}
+
+.column-1, .column-2, .column-3, .column-4 {
+	box-sizing: border-box;
+	background-color: rgb(240, 240, 240);
+	padding: 7px;
+	margin-right: .6em;
+	margin-top: .6em;
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	border-radius: 5px;
+	border-color: rgb(150, 150, 150);
+	border-width: 2px;
+	border-style: outset;
+	}
+
+.column-1:active, .column-2:active, .column-3:active, .column-4:active {
+	border-style: inset;
+	background-color: grey;
+}
+
+.column-1 {
+	width: 25%;
+}
+
+.column-2 {
+	width: 79%;
+}
+
+.column-3 {
+	width: 34%;
+}
+
+.column-4 {
+	width: 21%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.container2 {
+	width: 75%;
+}
+
+#zerobutton {
+	margin-right: 3.9em;
+}
+
+#equalbutton {
+	margin-top: 2.7em;
+}
+
+
+
